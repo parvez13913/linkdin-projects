@@ -9,7 +9,7 @@ const RightSiteCard = () => {
             .then(data => setPost(data));
     }, []);
     return (
-        <div className='border rounded-lg mt-3 pb-2 px-4'>
+        <div className='border w-full rounded-lg mt-3 p-3'>
             <h2 className='font-semibold mt-2'>Add to your feed</h2>
             <div>
                 {

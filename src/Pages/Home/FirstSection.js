@@ -5,7 +5,7 @@ import './FirstSection.css';
 
 const FirstSection = () => {
     return (
-        <div className='mt-2 border p-2 mx-auto shadow-md rounded-lg'>
+        <div className='mt-3 border w-full p-2 mx-auto shadow-md rounded-lg'>
             <div className='flex items-center justify-around'>
                 <img className="w-10 rounded-full" src={user} alt='userImage' />
                 <button className='border px-10 py-2 rounded-full btn-background'>
@@ -47,7 +47,7 @@ const FirstSection = () => {
                                 <path d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32l8.4-8.4z" />
                                 <path d="M5.25 5.25a3 3 0 00-3 3v10.5a3 3 0 003 3h10.5a3 3 0 003-3V13.5a.75.75 0 00-1.5 0v5.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5V8.25a1.5 1.5 0 011.5-1.5h5.25a.75.75 0 000-1.5H5.25z" />
                             </svg>
-                            <span className='text-xs'>Write article</span>
+                            <span className='text-xs'>Article</span>
                         </Link>
                     </li>
                 </ul>
@@ -59,7 +59,7 @@ const FirstSection = () => {
                     <p className='ml-1 text-xs'>Short by:</p>
                     <span className='font-bold text-xs'>Top</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className=" text-xs w-5 h-5">
-                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                        <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
                     </svg>
                 </div>
             </div>
