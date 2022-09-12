@@ -5,7 +5,7 @@ import './FirstSection.css';
 
 const FirstSection = () => {
     return (
-        <div className='w-[40%]  mt-2 border py-4 mx-auto shadow-md rounded-lg'>
+        <div className='mt-2 border py-4 mx-auto shadow-md rounded-lg'>
             <div className='flex items-center justify-around'>
                 <img className="w-10 rounded-full" src={user} alt='userImage' />
                 <button className='border px-20 py-3 rounded-full btn-background'>
@@ -51,6 +51,17 @@ const FirstSection = () => {
                         </Link>
                     </li>
                 </ul>
+            </div>
+
+            <div className='flex items-center'>
+                <div style={{ height: '1px' }} className='w-[80%] bg-slate-300'></div>
+                <div className='flex items-center link no-underline'>
+                    <p className='ml-1 text-xs'>Short by:</p>
+                    <span className='font-bold text-xs'>Top</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className=" text-xs w-5 h-5">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                    </svg>
+                </div>
             </div>
         </div>
     );

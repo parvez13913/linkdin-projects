@@ -1,0 +1,16 @@
+.image-style img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.image-style {
+  display: flex;
+  justify-content: center;
+  margin-top: -35px;
+}
+
+.background-style {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://wallpaperaccess.com/full/2068772.jpg");
+}

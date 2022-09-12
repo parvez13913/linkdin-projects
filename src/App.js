@@ -4,7 +4,7 @@ import Navbar from './Pages/Sheard/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Home />
     </div>

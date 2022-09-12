@@ -12,7 +12,7 @@ const SecondSection = () => {
             .then(data => setPost(data));
     }, []);
     return (
-        <div className='w-[40%]  mt-2 border p-4 mx-auto shadow-md rounded-lg'>
+        <div className='mt-2 border p-4 mx-auto shadow-md rounded-lg'>
             <div className='flex justify-between items-center'>
                 <div className='flex items-center'>
                     <img className="w-10 rounded-full" src={user} alt="userImg" />
@@ -31,12 +31,15 @@ const SecondSection = () => {
             </div>
             <div className='border mt-2 mb-4'> </div>
             <div>
-                {
-                    post.map(singlePost => <SinglePost
-                        key={singlePost._id}
-                        singlePost={singlePost}
-                    />)
-                }
+                <div>
+                    {
+                        post.map(singlePost => <SinglePost
+                            key={singlePost._id}
+                            singlePost={singlePost}
+                        />)
+                    }
+                </div>
+
             </div>
         </div>
     );
