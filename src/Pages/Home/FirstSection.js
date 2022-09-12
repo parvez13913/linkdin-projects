@@ -5,7 +5,7 @@ import './FirstSection.css';
 
 const FirstSection = () => {
     return (
-        <div className='mt-2 border p-3 mx-auto shadow-md rounded-lg'>
+        <div className='mt-2 border p-2 mx-auto shadow-md rounded-lg'>
             <div className='flex items-center justify-around'>
                 <img className="w-10 rounded-full" src={user} alt='userImage' />
                 <button className='border px-10 py-2 rounded-full btn-background'>
