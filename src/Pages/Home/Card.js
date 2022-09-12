@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Card = () => {
     return (
-        <div className='border rounded-lg mt-3 pb-3'>
+        <div className='border rounded-lg mt-3 p-3'>
             <div className='background-style w-full'>
                 <h1 className='text-3xl mt-7' >Programming</h1>
             </div >

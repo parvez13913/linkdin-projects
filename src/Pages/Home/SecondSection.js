@@ -12,7 +12,7 @@ const SecondSection = () => {
             .then(data => setPost(data));
     }, []);
     return (
-        <div className='mt-2 border p-4 mx-auto shadow-md rounded-lg'>
+        <div className='mt-2 border p-4 mx-auto shadow-md rounded-lg mb-2'>
             <div className='flex justify-between items-center'>
                 <div className='flex items-center'>
                     <img className="w-10 rounded-full" src={user} alt="userImg" />

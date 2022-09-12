@@ -6,7 +6,7 @@ import SecondSection from './SecondSection';
 
 const Home = () => {
     return (
-        <div className='backgroundColor grid grid-cols-1 lg:grid-cols-3 gap-4 '>
+        <div className='backgroundColor grid grid-cols-1 lg:grid-cols-3 gap-5 lg:ml-20 container'>
             <div className='hidden lg:flex'>
                 <LeftCartContainer />
             </div>

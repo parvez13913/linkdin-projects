@@ -5,6 +5,7 @@ const RightCardContainer = () => {
     return (
         <div>
             <RightSiteCard />
+            <RightSiteCard />
         </div>
     );
 };

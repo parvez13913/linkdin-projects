@@ -2,7 +2,7 @@ import React from 'react';
 
 const SecontCard = () => {
     return (
-        <div className='border rounded-lg mt-3 pb-3'>
+        <div className='border rounded-lg mt-3 p-3'>
             <div className='text-left'>
                 <span className='text-xs'>Recent</span>
             </div>
