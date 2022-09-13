@@ -51,7 +51,7 @@ const SmallNavbar = () => {
                             </div>
                         </Link>
                     </li>
-                    <li>
+                    <li className='hidden'>
                         <Link to='#'>
                             <div className='flex flex-col items-center'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -62,7 +62,7 @@ const SmallNavbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <div className="flex-none gap-2">
+                        <div className="flex-none gap-2 hidden">
                             <div className="dropdown dropdown-end">
                                 <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
                                     <div className="w-10 rounded-full">
